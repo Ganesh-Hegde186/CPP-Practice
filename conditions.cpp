@@ -1,6 +1,14 @@
 #include<iostream>
+using namespace std;
 int main(){
-int b = 5;
-if(b>0)std::cout<<b<<std::endl;
-else std::cout<<"False"<<std::endl;
+int b;
+cout<<"Enter the number:"<<endl;
+cin>>b;
+if(b>0){
+cout<<b<<std::endl;
+}
+else{
+cout<<"False"<<std::endl;
+}
+return 0;
 }
