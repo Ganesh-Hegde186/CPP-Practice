@@ -67,3 +67,18 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+cat > .gitignore << 'EOF'
+   # Ignore everything by default
+   *
+
+   # Keep folders
+   !*/
+
+   # Keep source files and docs
+   !*.cpp
+   !*.c
+   !*.h
+   !*.md
+   !*.txt
+   !.gitignore
+   EOF
